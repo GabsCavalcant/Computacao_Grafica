@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="ex1.css">
+    <title>Exemplo Aula 1</title>
+
+</head>
+
+<body>
+    <h1>Manipulação using doom</h1>
+    <div id="container">
+        <button id="trocar"> Trocar cor</button>
+
+        <button id="Escolher"> Escolher </button>
+        <p> <img id="img" src="https://images3.alphacoders.com/134/thumb-1920-1347718.jpeg" alt=""> yasuo</p>
+
+    </div>
+
+    <button id="voltar" > Voltar</button>
+
+
+
+    <script>
+        
+
+        const voltar = document.getElementById("voltar");
+        const trocar = document.getElementById("trocar");
+        const escolher = document.getElementById("Escolher");
+    
+        trocar.addEventListener("click", () => {
+            const atual = document.body.style.backgroundColor;
+            const novaCor = (atual === "black") ? "blue" : "black";
+            document.body.style.backgroundColor = novaCor;
+        });
+
+        escolher.addEventListener("click", () =>{
+            const container = document.getElementById("container");
+            container.style.display = "none";
+            voltar.style.display = "block";
+        });
+
+        voltar.addEventListener("click", () =>{
+            container.style.display = "block";
+            voltar.style.display = "none";
+        })
+
+
+        
+    </script>
+        
+    </script>
+
+</body>
+
+</html>
