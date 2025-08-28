@@ -1,0 +1,25 @@
+{
+  "name": "cena",
+  "version": "1.0.0",
+  "description": "First example",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GabsCavalcant/Computa-o-Grafica.git"
+  },
+  "author": "Gabriel Cant",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GabsCavalcant/Computa-o-Grafica/issues"
+  },
+  "homepage": "https://github.com/GabsCavalcant/Computa-o-Grafica#readme",
+  "dependencies": {
+    "three": "^0.179.1"
+  },
+  "devDependencies": {
+    "vite": "^4.4.9"
+  }
+}
